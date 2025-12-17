@@ -198,19 +198,33 @@ This reflects explanatory strength, not predictive perfection.
 ## Repository Structure
 
 phishing-threat-profiling/
+
 │
+
 ├── data/
+
 │   └── phiusill_phishing_urls.csv
+
 │
+
 ├── notebook/
+
 │   └── phishing_threat_profiling.ipynb
+
 │
+
 ├── poster/
+
 │   └── phishing_threat_analysis_poster.pdf
+
 │
+
 ├── README.md
+
 ├── requirements.txt
+
 └── LICENSE
+
 ---
 
 ## Open Source Readiness
