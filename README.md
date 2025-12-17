@@ -27,7 +27,11 @@ This repository serves as:
 git clone https://github.com/Aditi141004/phishing-threat-profiling.git
 cd phishing-threat-profiling
 pip install -r requirements.txt
+jupyter notebook
+notebook/phishing_threat_profiling.ipynb
+
 ```
+
 ---
 
 ## Problem Framing
