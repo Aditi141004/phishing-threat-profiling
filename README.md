@@ -187,6 +187,39 @@ This reflects explanatory strength, not predictive perfection.
 
 ---
 
+## Model Assumptions & Validity Constraints
+This project intentionally prioritizes interpretability over raw predictive
+performance. The modeling choices and results should be interpreted under the
+following assumptions and constraints.
+
+### Assumptions
+
+- **Linearity:**  
+  The Multiple Linear Regression (MLR) model assumes linear relationships
+  between features and the threat score.
+
+- **Feature Independence:**  
+  While correlation-based filtering was applied, residual multicollinearity
+  may still exist.
+
+- **Stationary Feature Behavior:**  
+  The model assumes phishing URL characteristics remain stable over time.
+
+- **Proxy Target Variable:**  
+  `URLSimilarityIndex` is used as a continuous proxy for legitimacy patterns,
+  not as absolute ground truth risk.
+
+### Limitations
+
+- Linear models cannot capture complex non-linear phishing strategies.
+- Engineered features may not fully reflect real-world adversarial behavior.
+- HTTPS is no longer a reliable standalone indicator of legitimacy.
+- The model is **not production-ready** without calibration and continuous
+  validation.
+
+These limitations are explicitly acknowledged and motivate future work
+outlined in the project roadmap.
+
 ## Future Work
 
 - Benchmark against interpretable tree-based models
