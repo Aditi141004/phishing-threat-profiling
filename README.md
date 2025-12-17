@@ -21,6 +21,14 @@ This repository serves as:
 - A foundation for open-source security tooling
 
 ---
+## Quick Start
+
+```bash
+git clone https://github.com/Aditi141004/phishing-threat-profiling.git
+cd phishing-threat-profiling
+pip install -r requirements.txt
+```
+---
 
 ## Problem Framing
 
